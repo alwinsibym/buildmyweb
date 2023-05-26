@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./assets/source-files/buildlogo.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Byild.myweb</title>
+    <link rel="icon" type="image/x-icon" href="buildlogo.png">
+    <style>
+      .my-bgc
+      {
+        background-color: rgba(160, 186, 186, 0.892);
+      }
+
+      .div1
+            {
+                display: flex;
+                justify-content: center;
+            }
+
+            form
+            {
+                
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                
+
+            }
+
+            button
+            {
+                border-radius:5px;
+                background-color: rgb(161, 198, 214);
+            }
+
+            .card
+            {
+                height:fit-content;
+            }
+
+              .bgc
+            {
+                background-color: rgba(77, 122, 122, 0.171);
+            }
+
+              .bgct
+            {
+                background-color: transparent;
+                border-color: transparent;
+            }
+
+              .zero-div
+            {
+                width:fit-content;
+                height: fit-content;
+            }
+
+            .my-navq
+            {
+              height:6vh;
+            }
+
+            .my-footer
+            {
+              width:100vw;
+              height:50px;
+            }
+            
+            .footer-image
+            {
+              width:150px;
+              height:40px;
+            }
+
+            .my-bgf
+            {
+              background-color: white;
+            }
+    </style>
+</head>
+    <body>
+
+    <!--Navbar-->
+            <div class="row">
+                <div class="col-lg-12 col-xl-12 col-12 col-md-12"  id="home">
+                    
+                    <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+                        <img src="buildlogo.png" width="60px" height="30px" alt="">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto ">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#register">Register</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#mentors">Mentors</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="#register">Participate</a>
+                                </li>
+                                
+                                </li>   
+                            
+                           
+                        </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    <!--Navbar-->
+
+    <!--Corousal-->
+        <div class="col-12 col-sm-12 col-lg-12 col-xl-12">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="carousel1.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="carousel2.png" alt="Second slide">
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--Slider-->
+
+    <!--Secondary section-->
+        <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <p class="text-center m-4">Join us</p>
+            <p class="text-center mb-4">Pygrammers is a community of python enthusiasts with similar ideologies and interest</p>
+            <div class="d-flex flex-row justify-content-center">
+            <a href="https://t.me/pygrammers_official">
+                <button class="btn btn-primary">Telegram</button>
+            </a> 
+            </div>
+        </div>
+        </div>
+    <!--Secondary section-->
+
+    <!--Form-->
+
+        <div class="container-fluid mt-5 mb-2" id="register">
+        <div class="row d-flex flex-row justify-content-center">
+            <div class="col-9 col-sm-9 col-md-9 col-lg-6 col-xl-6">
+
+            <form class="p-4 border border-dark">
+                <h3 class=" text-center">Form:</h3>
+
+                <label class="mt-3 text-center" for="name">Name</label>
+                <input type="text" id="name">
+
+                <label class="mt-3 text-center" for="ph">Mobile Number</label>
+                <input id="ph" type="number">
+
+                <label class="mt-3 text-center" for="email">Email Address</label>
+                <input type="email" id="email">
+                
+                <label class="mt-3 text-center" class="mt-3" for="cmpny">Company / Institution name</label>
+                <input type="text" id="cmpny">
+
+                <figure class="m-4 d-flex flex-column"> 
+                    <figcaption class="small text-left">Upload a sortvideo or image of hand written sheet showing your interest to join build.myweb</figcaption>
+                    <input type="file">
+                </figure>
+
+                <select class="mt-3"> 
+                    <option class="font-weight-lighter display-6">Have you attended any events by Pygrammers before?</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                    <option>Maybe</option>
+                </select>
+
+                <button type="submit" class="ml-auto mr-auto my-4 pt-1 pb-1 pr-5 pl-5 border border-white text-dark">Submit Form</button>
+
+            </form>
+
+            </div>
+        </div>
+        </div>
+
+    <!--Form-->
+
+    <!--Mentors-->
+        <div class="container-fluid bgc" id="mentors">
+            
+                <div class="row d-flex flex-row justify-content-around">
+                    
+                    
+                    <div class="zero-div d-flex flex-column col-12 col-sm-12 col-md-6 col-lg-12 col-xl-12">
+
+                        <div class="mr-auto ml-auto align-self mb-4 mt-2 ">Mentors</div>
+
+                        <!--div left-->
+                        <div class="row col-lg-12 col-xl-12 d-flex flex-row justify-content-around">
+                            
+                            
+        
+                            <div class="row col-9 col-sm-9 col-md-9  col-lg-3 col-xl-3 flex-wrap mb-3 mt-3 mr-4 ml-4">
+                                <div class="card bgct">
+                                    <img class="card-img-top" src="Elon-Musk-Twitter-deal.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                    
+                                    <p class="small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="row col-9 col-sm-9 col-md-9 col-lg-3 col-xl-3 flex-wrap mb-3 mt-3 mr-4 ml-4">
+                                <div class="card bgct" >
+                                    <img class="card-img-top" src="Elon-Musk-Twitter-deal.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                    
+                                    <p class="small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="row col-9 col-sm-9 col-md-9 col-lg-3 col-xl-3 flex-wrap mb-3 mt-3 mr-4 ml-4">
+                                <div class="card bgct" >
+                                    <img class="card-img-top" src="Elon-Musk-Twitter-deal.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                    
+                                    <p class="small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="row col-9 col-sm-9 col-md-9 col-lg-3 col-xl-3 flex-wrap mb-3 mt-3 mr-4 ml-4">
+                                <div class="card bgct" >
+                                    <img class="card-img-top" src="Elon-Musk-Twitter-deal.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                    
+                                    <p class="small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="row col-9 col-sm-9 col-md-9 col-lg-3 col-xl-3 flex-wrap mb-3 mt-3 mr-4 ml-4">
+                                <div class="card bgct" >
+                                    <img class="card-img-top" src="Elon-Musk-Twitter-deal.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                    
+                                    <p class="small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="row col-9 col-sm-9 col-md-9 col-lg-3 col-xl-3 flex-wrap mb-3 mt-3 mr-4 ml-4">
+                                <div class="card bgct" >
+                                    <img class="card-img-top" src="Elon-Musk-Twitter-deal.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                    
+                                    <p class="small">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+    <!--Mentors-->
+
+            <footer class="my-footer">
+            
+            
+                <nav class="navbar navbar-light my-bgc">
+                
+                    <img src="footer.png" class="footer-image ml-auto mr-auto">
+                
+                </nav>
+            
+            </footer>
+
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
